@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "rm -rf node_modules/.cache && next src",
-    "build": "next build src --out dist",
-    "start": "next start"
+    "build": "next build src dist",
+    "start": "next start src"
   },
   "keywords": [],
   "author": "",
