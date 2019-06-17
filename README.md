@@ -6,13 +6,17 @@ A starter project.
 
 Install `node` with `nvm`
 
-```
+```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+# refresh your terminal
+$SCHELL
+# install node
+nvm install --lts node
 ```
 
-run `npm` to install the project dependencies
+run `npm` to install the project dependencies (`npm` comes with `node` and is its package manager)
 
-```
+```bash
 npm install
 ```
 
