@@ -1,5 +1,9 @@
 import { Component } from 'react';
-import styles from './index.scss';
+
+import './index.scss';
+
+import Title from '../components/title/TItle';
+import Layout from '../components/Layout/Layout';
 
 type State = {
   greet: string
@@ -38,11 +42,11 @@ class Index extends Component<any, State> {
     const { greet } = this.state;
 
     return (
-      <div className={styles.Layout}>
-        <h1 className={styles.Title}>
+      <Layout>
+        <Title>
           {greet}
-        </h1>
-      </div>
+        </Title>
+      </Layout>
     );
   }
 }
