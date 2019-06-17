@@ -28,4 +28,4 @@ Do run the project do `npm run dev`
 
 # Production
 
-To do a production build do `npm run build`.
+To do a production build do `npm run start`.
