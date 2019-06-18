@@ -24,8 +24,8 @@ That's it, now you can start coding!
 
 # Development
 
-To run the project do `npm run dev`.
+To run the project `npm run dev`.
 
 # Production
 
-To do a production build do `npm run start`.
+To do a production build `npm run start`.
