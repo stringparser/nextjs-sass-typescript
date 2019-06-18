@@ -9,7 +9,7 @@ Install `node` with `nvm`
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 # refresh your terminal
-$SCHELL
+$SHELL
 # install node
 nvm install --lts node
 ```
